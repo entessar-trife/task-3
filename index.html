@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bootstrap </title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <!-- font awesome -->
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- fonts -->
+
+  <!-- css style -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <!-- css style -->
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <h1> ENTESSAR TRIFE </h1>
+      <ul class="ul-nav">
+        <li> <a href="#portfolio"> PORTFOLIO </a> </li>
+        <li> <a href="#about"> ABOUT </a> </li>
+        <li> <a href="#contact"> CONTACT </a> </li>
+      </ul>
+    </nav>
+
+    <nav class="res-nav">
+      <div>
+        <h1> ENTESSAR TRIFE </h1>
+      </div>
+      <div>
+        <input type="checkbox" id="check">
+        <label for="check" class="label-bar"> <i class="fa-solid fa-bars"></i> </label>
+        <div class="sidebar">
+          <ul class="ul-res-nav">
+            <li> <a href="#portfolio"> PORTFOLIO </a> </li>
+            <li> <a href="#about"> ABOUT </a> </li>
+            <li> <a href="#contact"> CONTACT </a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="entessar">
+      <div class="img-circle">
+        <img class="my-img" src="./assets/images/photo_2024-09-15_07-35-08-removebg-preview.png">
+      </div>
+      <h2> ENTESSAR TRIFE </h2>
+      <div class="star-white">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p> Biomedical Engineering - Front end intern at focal X </p>
+    </section>
+  </header>
+
+  <main>
+    <section class="portfolio" id="portfolio">
+      <h2> PORTFOLIO </h2>
+      <div class="star-gray">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="one">
+        <div class="logo html">
+          <img src="./assets/images/html.png" alt="Html logo">
+        </div>
+        <div class="logo css">
+          <img src="./assets/images/css.png" alt="Css logo">
+        </div>
+        <div class="logo js">
+          <img src="./assets/images/js.png" alt="Javascript logo">
+        </div>
+      </div>
+      <div class="two">
+        <div class="logo react">
+          <img src="./assets/images/react.png" alt="React logo">
+        </div>
+        <div class="logo bootstrap">
+          <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+        </div>
+        <div class="logo git">
+          <img src="./assets/images/git.png" alt="Git logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2> ABOUT </h2>
+      <div class="star-white">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="text">
+        <p>
+          Freelancer is a free bootstrap theme
+          created by Start Bootstrap. The
+          download includes the complete source files including HTML, CSS,
+          and JavaScript as well as optional SASS stylesheets for easy customization.
+        </p>
+        <p>
+          You can create your own custom avatar for the masthead,
+          change the icon in the dividers, and add your email address
+          to the contact form to make it fully functional!
+        </p>
+      </div>
+      <button class="download"> <a href="#">
+          <i class="fa-solid fa-download"></i>
+          <span> Free Download! </span> </a>
+      </button>
+    </section>
+
+    <section class="contact-me" id="contact">
+      <h2> CONTACT ME </h2>
+      <div class="star-gray">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email address">
+        <input type="number" placeholder="Phone number">
+        <textarea placeholder="Message"></textarea>
+        <button class="send"> Send </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="info">
+        <div class="location">
+          <h2> LOCATION </h2>
+          <p> Syria,Lattakia,Jableh </p>
+        </div>
+        <div class="around-the-web">
+          <h2> AROUND THE WEB </h2>
+          <div class="icons">
+            <a href="https://www.facebook.com/entessar.tr?mibextid=ZbWKwL"> <i class="fa-brands fa-facebook-f"></i> </a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="https://www.linkedin.com/in/entessar-trife-a69793249"> <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#"> <i class="fa-brands fa-dribbble"></i> </a>
+          </div>
+        </div>
+        <div class="about-freelancer">
+          <h2> ABOUT FREELANCER </h2>
+          <p> Freelancer is a free to use, MIT licensed
+            <span> Bootstrap theme created by
+              <a href="#entessar" class="my-name">
+                Entessar </a> </span>
+            <span> <a href="#entessar" class="my-name">
+                Trife </a> . </span>
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &copy; Your Website 2023
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
